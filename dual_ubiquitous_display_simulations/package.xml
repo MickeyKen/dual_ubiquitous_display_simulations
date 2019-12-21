@@ -52,9 +52,10 @@
   <exec_depend>dual_ubiquitous_display_control</exec_depend>
   <exec_depend>dual_ubiquitous_display_gazebo</exec_depend>
 
+  <exec_depend>gazebo_ros</exec_depend>
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- Other tools can request additional information be placed here -->
-
+        <gazebo_ros gazebo_media_path="${prefix}/texture"/>
   </export>
 </package>
